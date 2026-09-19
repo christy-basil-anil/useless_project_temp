@@ -2,20 +2,20 @@
 
 
 
-# [Project Name] 🎯
+# Gramophone of jungle
+
+<img  height="640" alt="gramophone" src="https://appbucket-hoomans.s3.ap-south-1.amazonaws.com/17893817288345324021000610375.jpgduplicate.jpg" />
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Christy Basil Anil's Team 
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
+- Team Lead: Christy Basil Anil— St.Thomas College, Ranni
+- 
 ### Project Description
-[2-3 lines about what your project does]
+What if gramophone was invented by ancient people in jungle. 
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
