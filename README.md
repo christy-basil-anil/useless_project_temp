@@ -52,8 +52,9 @@ Did I build it anyway? Obviously. 🗿
 ###  Software used:
 - Arduino IDE
 
-# Installation
-[commands]
+## how it work
+The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act as the vinyl disc using a RFID reader , read stored musical data from its memory blocks, and play the song through a buzzer while synchronously oscillating a servo motor.
+
 
 # Run
 [commands]
