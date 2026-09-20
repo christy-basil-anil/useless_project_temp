@@ -40,15 +40,18 @@ Did I build it anyway? Obviously. 🗿
 
 ## Technical Details
 ### Components Used
+- ESP32
+- Servo motor
+- RFID reader
+- RFID card
+- Buzzer module
+- Cable
+- Jumper wire
 
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+###  Software used:
+- Arduino IDE
 
-### Implementation
-For Software:
 # Installation
 [commands]
 
