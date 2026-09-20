@@ -8,17 +8,15 @@
 
 
 ## Basic Details
-### Team Name: Christy Basil Anil's Team \
-\
+### Team Name: Christy Basil Anil's Team 
 
 ### Team Members
-- Team Lead: Christy Basil Anil— St.Thomas College, Ranni \
-\
+- Team Lead: Christy Basil Anil— St.Thomas College, Ranni
+
   
 ### Project Description
 What if our ancestors skipped the invention of modern technology and went straight to vintage music?
-Imagine walking through an ancient jungle and suddenly hearing music coming from a suspiciously advanced wooden box. \
-\
+Imagine walking through an ancient jungle and suddenly hearing music coming from a suspiciously advanced wooden box. 
 
 ### The Problem (that doesn't exist)
 Ancient humans had no Wi-Fi.\
