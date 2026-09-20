@@ -4,7 +4,7 @@
 
 # Gramophone of jungle
 
-<img  height="640" alt="gramophone" src="https://appbucket-hoomans.s3.ap-south-1.amazonaws.com/17893817288345324021000610375.jpgduplicate.jpg" />
+<img  height="640" alt="gramophone" src="gramophone.jpeg" />
 
 
 ## Basic Details
