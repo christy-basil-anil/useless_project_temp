@@ -56,10 +56,54 @@ Did I build it anyway? Obviously. 🗿
 The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act as the vinyl disc using a RFID reader in the needle arm , read stored musical data from its memory blocks, and play the song through a buzzer while synchronously oscillating a servo motor.
 
 # Code
-## code to store msuic melody in RFID card(vinyl disc)
+## Code to store msuic melody in RFID card(vinyl disc)
 <a href="vinyl_disc_setup.ino">vinyl_disc_setup.ino</a>
+
+## Pin Connections
+| RC522 Module Pin | ESP32 GPIO Pin | 
+| :--- | :--- | 
+| **VCC** | **3.3V** | 
+| **RST** | **GPIO 22** | 
+| **GND** | **GND** | 
+| **IRQ** | *Unconnected* | 
+| **MISO** | **GPIO 19** | 
+| **MOSI** | **GPIO 23** | 
+| **SCK** | **GPIO 18** |
+| **SDA / SS** | **GPIO 5** | 
+
+
 ## full code for the project
 <a href="gramophone.ino">gramophone.ino</a>
+## Pin Connections
+
+### RFID RC522 Module (SPI)
+| RC522 Pin | ESP32 Pin |
+|-----------|-----------|
+| **SDA (SS)** | GPIO 5 |
+| **SCK** | GPIO 18 |
+| **MOSI** | GPIO 23 |
+| **MISO** | GPIO 19 |
+| **RST** | GPIO 22 |
+| **GND** | GND |
+| **3.3V** | 3.3V |
+
+---
+
+### Servo Motor
+| Servo Wire | ESP32 Pin / Power |
+|------------|-------------------|
+| **Signal (Yellow/Orange)** | GPIO 26 |
+| **VCC (Red)** | 5V / VIN |
+| **GND (Brown/Black)** | GND |
+
+---
+
+### 3-Pin Passive / Active Buzzer Module
+| Buzzer Module Pin | ESP32 Pin / Power |
+|-------------------|-------------------|
+| **S (Signal)** | GPIO 25 |
+| **VCC (+)** | 3.3V / 5V |
+| **GND (-)** | GND |
 ### Project Documentation
 For Software:
 
