@@ -333,4 +333,4 @@ void writeMelody() {
   Serial.println("================================"); 
   Serial.println("MELODY SUCCESSFULLY WRITTEN!"); 
   Serial.println("================================"); 
-} is this corrent for this updated pins
+} 
