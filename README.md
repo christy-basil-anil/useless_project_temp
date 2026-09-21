@@ -1,147 +1,166 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
+# Gramophone of Jungle
 
-# Gramophone of jungle
-
-<img  height="640" alt="gramophone" src="gramophone.jpeg" />
-
+<img height="640" alt="gramophone" src="gramophone.jpeg" />
 
 ## Basic Details
-### Team Name: Christy Basil Anil's Team 
+
+**Team Name:** Christy Basil Anil's Team
 
 ### Team Members
-- Team Lead: Christy Basil Anil— St.Thomas College, Ranni
 
-  
-### Project Description
+* **Team Lead:** Christy Basil Anil — St.Thomas College, Ranni
+
+## Project Description
+
 What if our ancestors skipped the invention of modern technology and went straight to vintage music?
-Imagine walking through an ancient jungle and suddenly hearing music coming from a suspiciously advanced wooden box. 
 
-### The Problem (that doesn't exist)
-Ancient humans had no Wi-Fi.\
-No electricity.\
-No Spotify.\
-And, most importantly… NO GRAMOPHONE.
+Imagine walking through an ancient jungle and suddenly hearing music coming from a suspiciously advanced wooden box.
 
-For thousands of years, our ancestors were forced to live without listening to music on a giant spinning disc.\
+## The Problem (That Doesn't Exist)
+
+Ancient humans had no Wi-Fi.
+No electricity.
+No Spotify.
+And, most importantly… **NO GRAMOPHONE.**
+
+For thousands of years, our ancestors were forced to live without listening to music on a giant spinning disc.
 Honestly, unacceptable.
 
-### The Solution (that nobody asked for)
+## The Solution (That Nobody Asked For)
+
 As a responsible descendant with zero respect for historical accuracy, I decided to fix this massive injustice.
 
 I built a gramophone for ancient jungle people.
 
 Because if our ancestors could discover fire, invent tools, and survive wild animals, surely they deserved to sit around a campfire and enjoy some ancient lo-fi beats.
 
-Did they need it? No.\
-Did they ask for it? Absolutely not.\
+Did they need it? No.
+Did they ask for it? Absolutely not.
 Did I build it anyway? Obviously. 🗿
 
 ## Technical Details
+
 ### Components Used
-<img  height="640" alt="componets" src="componets.jpeg" />
 
-- ESP32
-- Servo motor
-- RFID reader
-- RFID card
-- Buzzer module
-- Cable
-- Jumper wire
+<img height="640" alt="componets" src="componets.jpeg" />
 
+* ESP32
+* Servo motor
+* RFID reader
+* RFID card
+* Buzzer module
+* Cable
+* Jumper wire
 
-###  Software used:
-- Arduino IDE
+### Software Used
 
-## how it work
-The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act as the vinyl disc using a RFID reader in the needle arm , read stored musical data from its memory blocks, and play the song through a buzzer while synchronously oscillating a servo motor.
+* Arduino IDE
 
-# Code
-## Code to store msuic melody in RFID card(vinyl disc)
+## How It Works
+
+The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act as the vinyl disc using a RFID reader in the needle arm, read stored musical data from its memory blocks, and play the song through a buzzer while synchronously oscillating a servo motor.
+
+## Code
+
+### Code to Store Music Melody in RFID Card (Vinyl Disc)
+
 <a href="vinyl_disc_setup.ino">vinyl_disc_setup.ino</a>
 
 ## Pin Connections
-| RC522 Module Pin | ESP32 GPIO Pin | 
-| :--- | :--- | 
-| **VCC** | **3.3V** | 
-| **RST** | **GPIO 22** | 
-| **GND** | **GND** | 
-| **IRQ** | *Unconnected* | 
-| **MISO** | **GPIO 19** | 
-| **MOSI** | **GPIO 23** | 
-| **SCK** | **GPIO 18** |
-| **SDA / SS** | **GPIO 5** | 
-
-
-## full code for the project
-<a href="gramophone.ino">gramophone.ino</a>
-## Pin Connections
 
 ### RFID RC522 Module (SPI)
-| RC522 Pin | ESP32 Pin |
-|-----------|-----------|
-| **SDA (SS)** | GPIO 5 |
-| **SCK** | GPIO 18 |
-| **MOSI** | GPIO 23 |
-| **MISO** | GPIO 19 |
-| **RST** | GPIO 22 |
-| **GND** | GND |
-| **3.3V** | 3.3V |
 
----
+| RC522 Module Pin | ESP32 GPIO Pin |
+| :--------------- | :------------- |
+| **VCC**          | **3.3V**       |
+| **RST**          | **GPIO 22**    |
+| **GND**          | **GND**        |
+| **IRQ**          | *Unconnected*  |
+| **MISO**         | **GPIO 19**    |
+| **MOSI**         | **GPIO 23**    |
+| **SCK**          | **GPIO 18**    |
+| **SDA / SS**     | **GPIO 5**     |
+
+### Full Code for the Project
+
+<a href="gramophone.ino">gramophone.ino</a>
+
+### RFID RC522 Module (SPI)
+
+| RC522 Pin    | ESP32 Pin |
+| :----------- | :-------- |
+| **SDA (SS)** | GPIO 5    |
+| **SCK**      | GPIO 18   |
+| **MOSI**     | GPIO 23   |
+| **MISO**     | GPIO 19   |
+| **RST**      | GPIO 22   |
+| **GND**      | GND       |
+| **3.3V**     | 3.3V      |
 
 ### Servo Motor
-| Servo Wire | ESP32 Pin / Power |
-|------------|-------------------|
-| **Signal (Yellow/Orange)** | GPIO 26 |
-| **VCC (Red)** | 5V / VIN |
-| **GND (Brown/Black)** | GND |
 
----
+| Servo Wire                 | ESP32 Pin / Power |
+| :------------------------- | :---------------- |
+| **Signal (Yellow/Orange)** | GPIO 26           |
+| **VCC (Red)**              | 5V / VIN          |
+| **GND (Brown/Black)**      | GND               |
 
 ### 3-Pin Passive / Active Buzzer Module
+
 | Buzzer Module Pin | ESP32 Pin / Power |
-|-------------------|-------------------|
-| **S (Signal)** | GPIO 25 |
-| **VCC (+)** | 3.3V / 5V |
-| **GND (-)** | GND |
+| :---------------- | :---------------- |
+| **S (Signal)**    | GPIO 25           |
+| **VCC (+)**       | 3.3V / 5V         |
+| **GND (-)**       | GND               |
 
+## Circuit
 
-# Circuit
-<img  height="640" alt="circult" src="digital_circult.png" />
+<img height="640" alt="circult" src="digital_circult.png" />
+
 *circult in wokwi*
 
-<img  height="640" alt="circult" src="circult.png" />
+<img height="640" alt="circult" src="circult.png" />
+
 *physcial circult*
 
-# Build Photos
-<img  height="640" alt="bulit" src="bulit 1.jpeg" />
+## Referance
+
+<img height="640" alt="reference" src="reference.jpeg" />
+
+## Build Photos
+
+<img height="640" alt="bulit" src="bulit 1.jpeg" />
+
 *Cutting wood*
-<img  height="640" alt="bulit" src="bulit 2.jpeg" />
-* Making the box*
-<img  height="640" alt="bulit" src="built 3.jpeg" />
-* Connecting the componets*
-<img  height="640" alt="bulit" src="built 4.jpeg" />
+
+<img height="640" alt="bulit" src="bulit 2.jpeg" />
+
+*Making the box*
+
+<img height="640" alt="bulit" src="built 3.jpeg" />
+
+*Connecting the componets*
+
+<img height="640" alt="bulit" src="built 4.jpeg" />
+
 *Coding*
-<img  height="640" alt="bulit" src="built 5.jpeg" />
+
+<img height="640" alt="bulit" src="built 5.jpeg" />
+
 *testing*
-##final project
-<img  height="640" alt="bulit" src="last.jpeg" />
+
+# Final Project
+
+<img height="640" alt="bulit" src="last.jpeg" />
 
 
-
-
-
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
-
+# Project Demo
+<a href="https://drive.google.com/file/d/1EwofEqXmZV_6eGbqJ9n1VbYsr-z0VL_F/view?usp=drive_link"> Explanation video </a><br>
+<a href="https://drive.google.com/file/d/1F0FAUw3gbQQcYgVqcgyahfoaN7-wMD5L/view?usp=sharing">Demo video</a><br>
+<a href="https://drive.google.com/file/d/1F1LkTCSyt0iCNwI5BDllHCNS6rrw2lDD/view?usp=sharing">More </a>
 
 Made with ❤️ at TinkerHub Useless Projects 
 
