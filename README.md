@@ -55,10 +55,11 @@ Did I build it anyway? Obviously. 🗿
 ## how it work
 The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act as the vinyl disc using a RFID reader in the needle arm , read stored musical data from its memory blocks, and play the song through a buzzer while synchronously oscillating a servo motor.
 
-
-# Run
-[commands]
-
+# Code
+## code to store msuic melody in RFID card(vinyl disc)
+<a href="vinyl_disc_setup.ino">vinyl_disc_setup.ino</a>
+## full code for the project
+<a href="gramophone.ino">gramophone.ino</a>
 ### Project Documentation
 For Software:
 
