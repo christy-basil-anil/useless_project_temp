@@ -40,6 +40,8 @@ Did I build it anyway? Obviously. 🗿
 
 ## Technical Details
 ### Components Used
+<img  height="640" alt="componets" src="componets.jpeg" />
+
 - ESP32
 - Servo motor
 - RFID reader
@@ -104,41 +106,33 @@ The Arduino script uses an ESP32 to detect an RFID card inside a leaf which act 
 | **S (Signal)** | GPIO 25 |
 | **VCC (+)** | 3.3V / 5V |
 | **GND (-)** | GND |
-### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+# Circuit
+<img  height="640" alt="circult" src="digital_circult.png" />
+*circult in wokwi*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+<img  height="640" alt="circult" src="circult.png" />
+*physcial circult*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+<img  height="640" alt="bulit" src="bulit 1.jpeg" />
+*Cutting wood*
+<img  height="640" alt="bulit" src="bulit 2.jpeg" />
+* Making the box*
+<img  height="640" alt="bulit" src="built 3.jpeg" />
+* Connecting the componets*
+<img  height="640" alt="bulit" src="built 4.jpeg" />
+*Coding*
+<img  height="640" alt="bulit" src="built 5.jpeg" />
+*testing*
+##final project
+<img  height="640" alt="bulit" src="last.jpeg" />
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
-*Explain the final build*
+
+
+
 
 ### Project Demo
 # Video
@@ -148,12 +142,7 @@ For Hardware:
 # Additional Demos
 [Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
----
 Made with ❤️ at TinkerHub Useless Projects 
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
